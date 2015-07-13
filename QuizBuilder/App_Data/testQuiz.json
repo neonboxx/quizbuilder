@@ -1,0 +1,374 @@
+﻿{
+    "CorrectText": "CorrectAnswer!",
+    "incorrectText": "IncorrectAnswer!",
+    "Answers": [
+        {
+            "Id": 0,
+            "Text": "Straw",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 1,
+            "Text": "Shavings",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 2,
+            "Text": "Paper ",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 3,
+            "Text": "Shavings ",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 4,
+            "Text": "Hemp",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 5,
+            "Text": "Straw ",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 6,
+            "Text": "Rubber Matting",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 7,
+            "Text": "Wood Pellets",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 8,
+            "Text": "Hemp ",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 9,
+            "Text": "Wheelbarrow ",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 10,
+            "Text": "Bucket ",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 11,
+            "Text": "Skip Bucket",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 12,
+            "Text": "Pitch Fork ",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 13,
+            "Text": "Shavings Fork",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 14,
+            "Text": "Garden Fork ",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 15,
+            "Text": "Ragwort Fork",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 16,
+            "Text": "Shovel ",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 17,
+            "Text": "Pooper Scooper",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 18,
+            "Text": "Shavings Fork  ",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 19,
+            "Text": "Wheelbarrow",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 20,
+            "Text": "Yard Brushes ",
+            "ImageUrl": ""
+        },
+        {
+            "Id": 21,
+            "Text": "Rubber Gloves ",
+            "ImageUrl": ""
+        }
+    ],
+    "Questions": [
+        {
+            "Id": 0,
+            "Title": "Question 1",
+            "Type": "multiple",
+            "QuestionText": "Name this type of bedding?",
+            "Answers": [
+                0,
+                1,
+                2
+            ],
+            "CorrectAnswers": [
+                0
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Straw.jpg"
+        },
+        {
+            "Id": 1,
+            "Title": "Question 2",
+            "Type": "multiple",
+            "QuestionText": "Name this type of bedding?",
+            "Answers": [
+                3,
+                4,
+                5
+            ],
+            "CorrectAnswers": [
+                4
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Hemp.jpg"
+        },
+        {
+            "Id": 2,
+            "Title": "Question 3",
+            "Type": "multiple",
+            "QuestionText": "Name this type of bedding?",
+            "Answers": [
+                4,
+                1,
+                6
+            ],
+            "CorrectAnswers": [
+                1
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Shavings.jpg"
+        },
+        {
+            "Id": 3,
+            "Title": "Question 4",
+            "Type": "multiple",
+            "QuestionText": "Name this type of bedding?",
+            "Answers": [
+                6,
+                0,
+                2
+            ],
+            "CorrectAnswers": [
+                2
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Paper.jpg"
+        },
+        {
+            "Id": 4,
+            "Title": "Question 5",
+            "Type": "multiple",
+            "QuestionText": "Name this type of bedding?",
+            "Answers": [
+                4,
+                6,
+                5
+            ],
+            "CorrectAnswers": [
+                6
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Rubber Matting.jpg"
+        },
+        {
+            "Id": 5,
+            "Title": "Question 6",
+            "Type": "multiple",
+            "QuestionText": "Name this type of bedding?",
+            "Answers": [
+                7,
+                8,
+                1
+            ],
+            "CorrectAnswers": [
+                7
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Wood Pellets.jpg"
+        },
+        {
+            "Id": 6,
+            "Title": "Question 7",
+            "Type": "multiple",
+            "QuestionText": "Name this tool used for yard duties? ",
+            "Answers": [
+                9,
+                10,
+                11
+            ],
+            "CorrectAnswers": [
+                9
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Wheelbarrow.jpg"
+        },
+        {
+            "Id": 7,
+            "Title": "Question 8",
+            "Type": "multiple",
+            "QuestionText": "Name this tool used for yard duties? ",
+            "Answers": [
+                12,
+                13,
+                14
+            ],
+            "CorrectAnswers": [
+                13
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Shavings Fork.jpg"
+        },
+        {
+            "Id": 8,
+            "Title": "Question 9",
+            "Type": "multiple",
+            "QuestionText": "Name this tool used for yard duties? ",
+            "Answers": [
+                15,
+                16,
+                17
+            ],
+            "CorrectAnswers": [
+                17
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Pooper Scooper.jpg"
+        },
+        {
+            "Id": 9,
+            "Title": "Question 10",
+            "Type": "multiple",
+            "QuestionText": "Name this tool used for yard duties? ",
+            "Answers": [
+                17,
+                10,
+                11
+            ],
+            "CorrectAnswers": [
+                10
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Bucket.jpg"
+        },
+        {
+            "Id": 10,
+            "Title": "Question 11",
+            "Type": "multiple",
+            "QuestionText": "Name this tool used for yard duties? ",
+            "Answers": [
+                16,
+                18,
+                15
+            ],
+            "CorrectAnswers": [
+                16
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Shovel.jpg"
+        },
+        {
+            "Id": 11,
+            "Title": "Question 12",
+            "Type": "multiple",
+            "QuestionText": "Name this tool used for yard duties? ",
+            "Answers": [
+                13,
+                12,
+                14
+            ],
+            "CorrectAnswers": [
+                12
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Pitch Fork.jpg"
+        },
+        {
+            "Id": 12,
+            "Title": "Question 13",
+            "Type": "multiple",
+            "QuestionText": "Name this tool used for yard duties? ",
+            "Answers": [
+                15,
+                12,
+                13
+            ],
+            "CorrectAnswers": [
+                15
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Ragwort Fork.jpg"
+        },
+        {
+            "Id": 13,
+            "Title": "Question 14",
+            "Type": "multiple",
+            "QuestionText": "Name this tool used for yard duties? ",
+            "Answers": [
+                10,
+                19,
+                11
+            ],
+            "CorrectAnswers": [
+                11
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Skip Bucket.jpg"
+        },
+        {
+            "Id": 14,
+            "Title": "Question 15",
+            "Type": "multiple",
+            "QuestionText": "Name this tool used for yard duties? ",
+            "Answers": [
+                20,
+                16,
+                17
+            ],
+            "CorrectAnswers": [
+                20
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Yard Brushes.jpg"
+        },
+        {
+            "Id": 15,
+            "Title": "Question 16",
+            "Type": "multiple",
+            "QuestionText": "Name this tool used for yard duties? ",
+            "Answers": [
+                16,
+                21,
+                17
+            ],
+            "CorrectAnswers": [
+                21
+            ],
+            "Hint": "",
+            "ImageUrl": "images/BeddingQuiz/Rubber Gloves.jpg"
+        }
+    ]
+}
