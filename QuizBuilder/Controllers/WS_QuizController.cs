@@ -35,6 +35,16 @@ namespace QuizBuilder.Controllers
 
         [HttpGet]
         [Authorize]
+        public QuizItem GetUserQuizItem(int id)
+        {
+            string userId = Request.GetOwinContext().Authentication.User.Identity.GetUserId();
+
+            var currentUser = UserManager.FindById(userId);
+            return currentUser.quizItems.First(q=>q.id==id);
+        }
+
+        [HttpGet]
+        [Authorize]
         public List<QuizItem> GetUserQuizItems()
         {
             string userId = Request.GetOwinContext().Authentication.User.Identity.GetUserId();

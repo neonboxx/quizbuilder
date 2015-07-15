@@ -5,7 +5,8 @@
     'signIn',
     'register',
     'todoManager',
-    'quizList'
+    'quizList',
+    'quizEdit'
 ]);
 
 

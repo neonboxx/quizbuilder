@@ -28,6 +28,10 @@ namespace QuizBuilder.Controllers
             return PartialView();
         }
 
+        public ActionResult QuizEdit()
+        {
+            return PartialView();
+        }
 
 
         [Authorize]

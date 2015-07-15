@@ -2,6 +2,32 @@
 
 <div class="row margin-top-5">
     <div class="col-md-12">
-        
+        {{quiz.quizTitle}}
     </div>
-</div>
+    <div class="col-md-12">
+        <div class="input-group input-group-lg">
+            <label>Correct message:</label><input type="text" class="form-control" ng-model="quiz.CorrectText" />
+        </div>
+        <div class="input-group input-group-lg">
+            <label>Incorrect message:</label><input type="text" class="form-control" ng-model="quiz.incorrectText" />
+        </div>
+    </div>
+    <div class="col-md-12">
+        <h3>Questions:</h3>
+        <div class="col-md-10" ng-repeat="question in quiz.Questions">
+            <div class="input-group input-group-lg">
+                <label>Question title:</label><input type="text" class="form-control" ng-model="question.Title" />
+            </div>
+            <div class="input-group input-group-lg">
+                <label>Question text:</label><input type="text" class="form-control" ng-model="question.QuestionText" />
+            </div>
+            <h4>Answers:</h4>
+            <div class="col-md-8" ng-repeat="answer in question.Answers">
+                <div class="input-group input-group-lg">
+                    <label>Answer text:</label>
+                    <input type="text" class="form-control" ng-model="answer.AnswerText" />
+                    <input type="checkbox" class="form-control" ng-model="answer.isCorrect" />
+                </div>
+            </div>
+        </div>
+    </div>

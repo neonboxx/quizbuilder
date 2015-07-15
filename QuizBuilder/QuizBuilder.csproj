@@ -205,6 +205,7 @@
     <None Include="App_Data\testQuiz.json" />
     <Content Include="Assets\app\app.js" />
     <Content Include="Assets\app\controllers\homeCtrl.js" />
+    <Content Include="Assets\app\controllers\quizEditCtrl.js" />
     <Content Include="Assets\app\controllers\quizListCtrl.js" />
     <Content Include="Assets\app\controllers\registerCtrl.js" />
     <Content Include="Assets\app\controllers\signInCtrl.js" />
