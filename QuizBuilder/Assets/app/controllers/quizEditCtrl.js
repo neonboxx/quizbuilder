@@ -36,7 +36,11 @@
 
             };
         }
+        $scope.editQuestion = function () {
 
+
+        }
+       
         $scope.postItem = function()
         {
         }
@@ -44,10 +48,12 @@
 
         $scope.delete = function(index)
         {
-            $http.post('/api/WS_Quiz/DeleteQuizItem/' + $scope.todoList[index].id)
-                .success(function (data, status, headers, config) {
-                    
-                });
+            console.log($scope.quiz.Questions.length)
+
+            var item =$scope.quiz.Questions[index];
+
+            $scope.quiz.Questions.slice(item, 1)
+            console.log($scope.quiz.Questions.length)
         }
         
     }]);
