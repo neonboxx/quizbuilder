@@ -36,9 +36,17 @@
 
             };
         }
-        $scope.editQuestion = function () {
+        $scope.editQuestion = function (item) {
+            var current = item.isEdit;
+            for (var idx in $scope.quiz.Questions)
+            {
+                $scope.quiz.Questions[idx].isEdit = false;
+            }
+            item.isEdit = !current;
+        }
 
-
+        $scope.addAnswer= function (answer,question) {
+            alert(answer.Text)
         }
        
         $scope.postItem = function()
@@ -46,14 +54,10 @@
         }
 
 
-        $scope.delete = function(index)
+        $scope.delete = function(item)
         {
-            console.log($scope.quiz.Questions.length)
-
-            var item =$scope.quiz.Questions[index];
-
-            $scope.quiz.Questions.slice(item, 1)
-            console.log($scope.quiz.Questions.length)
+            var index = $scope.quiz.Questions.indexOf(item);
+            $scope.quiz.Questions.splice(index, 1)
         }
         
     }]);

@@ -56,3 +56,61 @@ c:\users\john\documents\visual studio 2013\Projects\QuizBuilder\QuizBuilder\obj\
 C:\Users\John\documents\visual studio 2013\Projects\QuizBuilder\QuizBuilder\obj\Debug\QuizBuilder.Migrations.InitialCreate.resources
 C:\Users\John\documents\visual studio 2013\Projects\QuizBuilder\QuizBuilder\obj\Debug\QuizBuilder.csproj.GenerateResource.Cache
 C:\Users\John\documents\visual studio 2013\Projects\QuizBuilder\QuizBuilder\obj\Debug\QuizBuilder.Migrations.AddQuizzes.resources
+D:\source\quizbuilder\QuizBuilder\bin\ng.Net Template1.dll.config
+D:\source\quizbuilder\QuizBuilder\bin\ng.Net Template1.dll
+D:\source\quizbuilder\QuizBuilder\bin\ng.Net Template1.pdb
+D:\source\quizbuilder\QuizBuilder\bin\Antlr3.Runtime.dll
+D:\source\quizbuilder\QuizBuilder\bin\EntityFramework.dll
+D:\source\quizbuilder\QuizBuilder\bin\EntityFramework.SqlServer.dll
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.AspNet.Identity.Core.dll
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.Owin.dll
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.Owin.Security.Cookies.dll
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.Owin.Security.dll
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.Owin.Security.OAuth.dll
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.Web.Infrastructure.dll
+D:\source\quizbuilder\QuizBuilder\bin\Newtonsoft.Json.dll
+D:\source\quizbuilder\QuizBuilder\bin\Owin.dll
+D:\source\quizbuilder\QuizBuilder\bin\System.Net.Http.Formatting.dll
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Helpers.dll
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Http.dll
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Http.Owin.dll
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Http.WebHost.dll
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Mvc.dll
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Optimization.dll
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Razor.dll
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.WebPages.Deployment.dll
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.WebPages.dll
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.WebPages.Razor.dll
+D:\source\quizbuilder\QuizBuilder\bin\WebGrease.dll
+D:\source\quizbuilder\QuizBuilder\bin\Antlr3.Runtime.pdb
+D:\source\quizbuilder\QuizBuilder\bin\EntityFramework.xml
+D:\source\quizbuilder\QuizBuilder\bin\EntityFramework.SqlServer.xml
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.AspNet.Identity.Core.xml
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.Owin.xml
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.Owin.Security.xml
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.Owin.Security.Cookies.xml
+D:\source\quizbuilder\QuizBuilder\bin\Microsoft.Owin.Security.OAuth.xml
+D:\source\quizbuilder\QuizBuilder\bin\Newtonsoft.Json.xml
+D:\source\quizbuilder\QuizBuilder\bin\System.Net.Http.Formatting.xml
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Helpers.xml
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Http.xml
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Http.Owin.xml
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Http.WebHost.xml
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Mvc.xml
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Razor.xml
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.WebPages.xml
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.WebPages.Deployment.xml
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.WebPages.Razor.xml
+D:\source\quizbuilder\QuizBuilder\bin\System.Web.Optimization.xml
+D:\source\quizbuilder\QuizBuilder\obj\Debug\QuizBuilder.csprojResolveAssemblyReference.cache
+D:\source\quizbuilder\QuizBuilder\obj\Debug\QuizBuilder.Migrations.InitialCreate.resources
+D:\source\quizbuilder\QuizBuilder\obj\Debug\QuizBuilder.Migrations.AddQuizzes.resources
+D:\source\quizbuilder\QuizBuilder\obj\Debug\QuizBuilder.csproj.GenerateResource.Cache
+D:\source\quizbuilder\QuizBuilder\obj\Debug\ng.Net Template1.dll
+D:\source\quizbuilder\QuizBuilder\obj\Debug\ng.Net Template1.pdb

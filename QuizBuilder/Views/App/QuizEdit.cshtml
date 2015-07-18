@@ -30,7 +30,6 @@
                     <th>
                         Question Type
                     </th>
-
                     <th>
                         Answers
                     </th>
@@ -43,7 +42,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="question in quiz.Questions">
+                <tr ng-repeat-start="question in quiz.Questions">
                     <td >
                         <img class="img-rounded" src="{{question.ImageUrl}}" alt="{{question.ImageUrl}}" /> 
                     </td>
@@ -63,37 +62,68 @@
                         {{question.Answers.length}}
                     </td>
                     <td>
-                        
-                        <div class="btn btn-info icon-camera" ng-click="editQuestion($index)">
+
+                        <div class="btn btn-info icon-camera" ng-click="editQuestion(question)">
                             <span class="glyphicon glyphicon-edit"></span>
                         </div>
-                        
+
                     </td>
-                    <td>
-                        <div class="btn btn-danger icon-camera" ng-click="delete($index)">
+                    <td ng-hide="question.isEdit">
+                        <div class="btn btn-danger icon-camera" ng-click="delete(question)">
                             <span class="glyphicon glyphicon-remove-sign"></span>
                         </div>
                     </td>
                 </tr>
+                <tr class="info" ng-repeat-end="question in questions" ng-show="question.isEdit">
+                    <td colspan="7">
+                         <h4>Answers:</h4>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            col
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="answer in question.Answers">
+                                        <td>
+                                            <input type="text" ng-model="answer.Text" />
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" ng-model="answer.Correct"/>
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" ng-model="answer.Correct" />
+                                        </td>
+                                        <td>
+                                            <div class="btn btn-danger icon-camera" ng-click="delete(answer)">
+                                                <span class="glyphicon glyphicon-remove-sign"></span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <form class="form-inline">
+                                
+                                    <input type="text" class="form-control" placeholder="Answer Text" ng-model="newAnswer.Text" />
+                                
+                                        <input type="checkbox" ng-model="newAnswer.Correct" /> Correct?
+                                
+                                <div class="btn btn-success icon-camera" ng-click="addAnswer(newAnswer,question)">
+                                    <span class="glyphicon glyphicon-plus-sign"></span>
+                                </div>
+                            </form>
+                        </div>
+                        
+                    
+                    
+                    
+                    </td>
+
+                </tr>
             </tbody>
         </table>
-
-
-
-        <div class="col-md-10" ng-repeat="question in quiz.Questions">
-            <div class="input-group input-group-lg">
-                <label>Question title:</label><input type="text" class="form-control" ng-model="question.Title" />
-            </div>
-            <div class="input-group input-group-lg">
-                <label>Question text:</label><input type="text" class="form-control" ng-model="question.QuestionText" />
-            </div>
-            <h4>Answers:</h4>
-            <div class="col-md-8" ng-repeat="answer in question.Answers">
-                <div class="input-group input-group-lg">
-                    <label>Answer text:</label>
-                    <input type="text" class="form-control" ng-model="answer.AnswerText" />
-                    <input type="checkbox" class="form-control" ng-model="answer.isCorrect" />
-                </div>
-            </div>
-        </div>
     </div>
