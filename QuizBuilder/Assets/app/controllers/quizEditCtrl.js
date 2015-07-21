@@ -46,7 +46,16 @@
         }
 
         $scope.addAnswer= function (answer,question) {
-            alert(answer.Text)
+            question.Answers.push(
+                {
+                    Text: answer.Text,
+                    Correct:answer.Correct
+                }
+            )
+        }
+        $scope.deleteAnswer = function (answer, question) {
+            var index = question.Answers.indexOf(answer)
+            question.Answers.splice(index,1)
         }
        
         $scope.postItem = function()
@@ -58,6 +67,17 @@
         {
             var index = $scope.quiz.Questions.indexOf(item);
             $scope.quiz.Questions.splice(index, 1)
+        }
+
+        $scope.save = function()
+        {
+            //if theres an id, do a put to update the quiz
+            if ($scope.id > 0) {
+                $http.put('/api/WS_Quiz/PostQuizItem/' + $scope.id, { Quiz: $scope.quiz })
+                    .success(function (data, status, headers, config) {
+                        $scope.quiz = data.Quiz;
+                    });
+            }
         }
         
     }]);

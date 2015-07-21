@@ -12,9 +12,11 @@
             <li ng-repeat="item in todoList" class="list-group-item">
                 <ul class="list-inline">
                     <li>
-                        <div class="btn btn-info icon-camera" >
-                            <a href="/#/edit/{{item.id}}"><span class="glyphicon glyphicon-edit"></span></a>
-                        </div>
+                        <a href="/#/edit/{{item.id}}">
+                            <div class="btn btn-info icon-camera">
+                                <span class="glyphicon glyphicon-edit"></span>
+                            </div>
+                        </a>
                     </li>
                     <li>
                         <div class="btn btn-danger icon-camera" ng-click="delete($index)">
@@ -28,4 +30,5 @@
             </li>
         </ul>
     </div>
+</div>
 </div>
