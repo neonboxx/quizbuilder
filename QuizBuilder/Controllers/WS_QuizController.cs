@@ -91,9 +91,58 @@ namespace QuizBuilder.Controllers
             {
                 return Request.CreateResponse<List<string>>(HttpStatusCode.BadRequest, errors);
             }
-
-            var user = db.Users.Where(u => u.firstName == "Test").FirstOrDefault();
         }
+
+
+        [HttpPut]
+        [Route("api/WS_Quiz/PostQuizItem/{id}")]
+        public HttpResponseMessage PostQuizItem(int id,QuizItemViewModel item)
+        {
+            var modelStateErrors = ModelState.Values.ToList();
+
+            List<string> errors = new List<string>();
+
+            foreach (var s in modelStateErrors)
+                foreach (var e in s.Errors)
+                    if (e.ErrorMessage != null && e.ErrorMessage.Trim() != "")
+                        errors.Add(e.ErrorMessage);
+
+            if (errors.Count == 0)
+            {
+                try
+                {
+                    string userId = Request.GetOwinContext().Authentication.User.Identity.GetUserId();
+
+                    var currentUser = UserManager.FindById(userId);
+                    var quiz = currentUser.quizItems.First(q => q.id == id);
+
+                    var idx = currentUser.quizItems.IndexOf(quiz);
+                    quiz = new QuizItem()
+                    {
+                        quizTitle = item.Title,
+                        serializedQuiz = item.SerializedQuiz
+                    };
+
+                    currentUser.quizItems[idx]=quiz;
+
+                    UserManager.Update(currentUser);
+
+                    return Request.CreateResponse(Ok<QuizItem>(quiz));
+                }
+                catch
+                {
+                    return Request.CreateResponse(HttpStatusCode.InternalServerError);
+                }
+            }
+            else
+            {
+                return Request.CreateResponse<List<string>>(HttpStatusCode.BadRequest, errors);
+            }
+        }
+
+
+
+
 
         [HttpPost]
         [Authorize]

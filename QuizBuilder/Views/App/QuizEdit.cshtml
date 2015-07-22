@@ -6,6 +6,7 @@
     </div>
     <div class="col-md-12">
         <form class="form-inline">
+            <label>Quiz Title:</label><input type="text" class="form-control" placeholder="Quiz Title" ng-model="title" />
             <label>Correct message:</label><input type="text" class="form-control" ng-model="quiz.CorrectText" />
             <label>Incorrect message:</label><input type="text" class="form-control" ng-model="quiz.incorrectText" />
             <div class="btn btn-success icon-camera" ng-click="save()">
@@ -81,6 +82,22 @@
                         </div>
                     </td>
                 </tr>
+                <tr class="info" ng-show="question.isEdit">
+                    <td colspan="7">
+                        <form class="form">
+                            <div class="form-group">
+                                <label>Title</label>
+                                <input class="form-control" ng-model="question.Title" />
+
+                                <label>Question Text</label>
+                                <input class="form-control" ng-model="question.QuestionText" />
+
+                                <label>Question Type</label>
+                                <input class="form-control" ng-model="question.Type" />
+                            </div>
+                        </form>
+                    </td>
+                </tr>
                 <tr class="info" ng-repeat-end="question in questions" ng-show="question.isEdit">
                     <td colspan="7">
                          <h4>Answers:</h4>
@@ -132,4 +149,31 @@
                 </tr>
             </tbody>
         </table>
+
+    </div>
+
+    <div class="col-md-12">
+    
+        <form class="form-inline">
+    
+            <input type="text" class="form-control" placeholder="Question Title" ng-model="newQuestion.Title" />
+            <div class="btn btn-success icon-camera" ng-click="addQuestion(newQuestion)">
+                <span class="glyphicon glyphicon-plus-sign"></span>
+            </div>
+        </form>
+    </div>
+    
+    <div class="col-md-12">
+        <form class="form">
+            <div class="form-group">
+                <label>Edit as JSON</label>
+                <div class="btn btn-info" ng-click="refreshJSON()">
+                    <span class="glyphicon glyphicon-refresh"></span>
+                </div>
+                <div class="btn btn-info" ng-click="updateFromJSON()">
+                    <span class="glyphicon glyphicon-upload"></span>
+                </div>
+                <textarea rows="25" class="form-control" ng-model="quizAsJSON"></textarea>
+            </div>
+        </form>
     </div>
